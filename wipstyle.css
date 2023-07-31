@@ -1,0 +1,18 @@
+.container {
+   font-family: "Lobster", cursive;
+   color: rgb(71, 48, 128);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.img {
+   width: 100px;
+   height: 100px;
+}
+
+.itm h5 {
+   padding: 50px 0px;
+   font-size: 50px;
+}

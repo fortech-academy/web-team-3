@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="userstyle.css" />
+      <link rel="icon" type="image/png" href="images/logo2.png" />
+      <title>Booklender - homepage</title>
+   </head>
+   <body>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+         <div class="container-fluid navcontainer">
+            <a class="navbar-brand logo page" href="userhomepage.html">
+               <div>
+                  <img src="images/logo2.png" class="img-fluid" alt="logo" />
+               </div>
+               <div for="logo">booklender</div>
+            </a>
+
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarNav"
+               aria-controls="navbarNav"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+            >
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="buttonclasss">
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link page" href="wishlist.html"
+                           >Wishlist</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link page" href="borrowed.html"
+                           >Borrowed</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link page" href="contact.html">Contact</a>
+                     </li>
+                     <li class="nav-item">
+                        <div class="dropdown">
+                           <button
+                              class="btn btn-secondary dropdown-toggle page"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                           >
+                              Profile
+                           </button>
+                           <ul class="dropdown-menu">
+                              <li>
+                                 <a class="dropdown-item" href="settings.html"
+                                    >Settings</a
+                                 >
+                              </li>
+                              <li>
+                                 <a class="dropdown-item" href="index.html"
+                                    >LOG OUT</a
+                                 >
+                              </li>
+                           </ul>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </nav>
+
+      <!-- SEARCH -->
+      <div>
+         <div class="container mt-5">
+            <div class="row">
+               <div class="col-md-8 offset-md-2">
+                  <form class="d-flex search-form">
+                     <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                     />
+                     <button
+                        class="btn btn-primary search-button"
+                        type="submit"
+                     >
+                        Search
+                     </button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- CARDS -->
+
+      <div class="container">
+         <div class="row">
+            <div class="card col-2">
+               <img
+                  src="images/carte1.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Confesiunile unui librar</a>
+                  <p class="card-text limited-text">
+                     Într-o casă în stil georgian, populată de mii de cărți și
+                     stăpânită de un motan dolofan, Shaun Bythell veghează peste
+                     teritoriul celui mai mare anticariat din Scoția. Din
+                     spatele tejghelei, el este șef și angajat, coleg al unor
+                     librari țăcăniți, arhivar și colecționar. Ritmul existenței
+                     lui se împarte între numeroasele vizite făcute pentru
+                     achiziționarea cărților, întâmpinarea clienților în magazin
+                     și mici însemnări zilnice inspirate din întrebările și
+                     comentariile acelorași clienți. Confesiunile unui librar
+                     este un jurnal scris printre cărți pentru cititorul pe
+                     care-l întâlnești printre cărți.
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="card col-2">
+               <img src="images/carte2.png" class="card-img-top" alt="carte1" />
+               <div class="card-body">
+                  <a href="">Cat timp infloresc lamaii</a>
+                  <p class="card-text limited-text">
+                     Înainte de izbucnirea revoluţiei siriene, Salama e o fată
+                     fericită dintr-o familie armonioasă, unită prin afecţiune
+                     şi tradiţie. Are 18 ani, studiază farnacologia şi se bucură
+                     de căsătoria dintre fratele ei, Hamza, şi prietena ei de
+                     suflet, Layla. După ce începe războiul, totul se schimbă.
+                     Ea ajunge să îndeplinească atribuţii de chirurg la spitalul
+                     local, din lipsă de personal şi un număr crescând de
+                     victime, membrii familiei ei îşi pierd viaţa sau dispar în
+                     război; singura supravieţuitoare e Layla, cumnata ei
+                     gravidă.
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card col-2">
+               <img
+                  src="images/cartea3.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Obsesia.</a>
+                  <p class="card-text limited-text">
+                     Esmay își dorește să fie salvată de umbrele trecutului – de
+                     Ewan, a cărui fascinație o retrăiește acum doar în
+                     amintire, de Asher, care este atât de hotărât să îi dărâme
+                     zidurile de apărare, și, mai presus de orice, de John
+                     White. Destinele lor se împletesc într-un puzzle care pare
+                     imposibil de descifrat, dar, cu timpul, devine clar că John
+                     este cel care îi poate oferi răspunsurile și iubirea de
+                     care are atât de mare nevoie. El este începutul ei dureros;
+                     ar putea fi și finalul ei fericit. Dar va reuși ea să îl
+                     găsească la timp sau, căutând iubirea pierdută, se va
+                     pierde pe sine?
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card col-2">
+               <img
+                  src="images/cartea4.png"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Rezistenta</a>
+                  <p class="card-text limited-text">
+                     Armata nazistă invadează Polonia în al Doilea Război
+                     Mondial și toți din țară sunt confruntați cu arestări,
+                     deportări și ucideri în masă. Tânăra Chaya Lindner din
+                     Cracovia decide însă că nu trebuie să-și piardă speranța,
+                     așa că se alătură unui grup de rezistență clandestină și
+                     devine unul dintre curierii care participă la eforturile de
+                     salvare a populației din ghetourile evreiești. Prin ochii
+                     ei, asistăm la tragedia războiului, la cruzimile de care
+                     sunt capabili agresorii, dar și la curajul, forța și
+                     loialitatea atâtor oameni simpli și rămași veșnic anonimi.
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card col-2">
+               <img
+                  src="images/cartea5.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Tabloul</a>
+                  <p class="card-text limited-text">
+                     Când Tommy şi Tuppence o vizitează pe bătrâna lor mătuşă
+                     într-un azil de bătrâni, nu dau atenție prea mare nici
+                     motivelor ei de supărare, nici pacientei care se plânge că
+                     a fost otrăvită. La urma urmelor, toți bătrânii sunt puțin
+                     senili, îşi spun ei. Însă cineva pomeneşte de un copil care
+                     ar fi fost ascuns in spatele unui şemineu, iar după câteva
+                     săptămâni mătuşa celor doi detectivi moare, lăsându-le
+                     moştenire un tablou care începe să o obsedeze pe Tuppence.
+                     Pornită în căutarea casei din tablou, se trezeşte prinsă
+                     într-o aventură periculoasă, în urma căreia va descoperi
+                     întâmplări vechi, poveşti despre copii omorâți şi... o
+                     grămadă de diamante.
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card col-2">
+               <img
+                  src="images/cartea6.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Carabusii</a>
+                  <p class="card-text limited-text">
+                     Ambasadorul Norvegiei în Thailanda este găsit asasinat
+                     într-un bordel din Bangkok. Era în relații apropiate cu
+                     prim-ministrul norvegian și, pentru a evita un scandal,
+                     politicienii de la Oslo hotărăsc să trimită la fața locului
+                     pe cineva care să investigheze cazul cu cea mai mare
+                     discreție. Omul ales este Harry Hole, polițistul alcoolic
+                     și dependent de vitamina B12, care primește instrucțiuni
+                     clare: să încerce să păstreze intactă reputația
+                     prim-ministrului și a Ministerului de Externe. Odată ajuns
+                     în capitala sufocantă a Thailandei, Harry descoperă că
+                     asasinarea ambasadorului este un caz mult mai complicat
+                     decât părea la prima vedere. Scufundat în zgomotul și trafi
+                     cul frenetic al orașului, Harry afl ă că în asasinat a fost
+                     implicată probabil și mafi a opiului, iar unul dintre
+                     localnicii care îi vin în ajutor dispare misterios. Harry
+                     se încăpățânează să elucideze un caz pe care, de fapt,
+                     nimeni nu-l vrea rezolvat. Dar în cine poate avea
+                     încredere?
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card col-2">
+               <img
+                  src="images/cartea7.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Enigma la mansarda</a>
+                  <p class="card-text limited-text">
+                     Maiorul Cristescu trebuie să descopere cine a comis o crimă
+                     pe cât de înfiorătoare, pe atât de misterioasă. Cine l-a
+                     ucis pe bătrânul profesor al cărui cadavru a fost
+                     descoperit în mansarda pe care o transformase în birou?
+                     Tânăra lui soție sau amantul ei? Fiul ilegitim, mama sau
+                     vreun amic al acestuia? Din colecția de numismatică a
+                     victimei lipsesc câteva monede foarte valoroase. Criminalul
+                     (sau altcineva?) a furat și un portret de Ingres, pe care
+                     l-a înlocuit cu o reproducere grosolană. Rodica-Ojog
+                     Brașoveanu, romancieră de calibru, știe să creeze o intrigă
+                     palpitantă, cu nenumărate piste false și răsturnări de
+                     situație, delectându-și cititorii cu încă un roman de
+                     neuitat.
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card col-2">
+               <img
+                  src="images/cartea8.png"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Zamuri - supe, zupe</a>
+                  <p class="card-text limited-text">
+                     Volumul conține 182 de rețete de supe/ciorbe, bogat
+                     ilustrate, culese în peste 40 de ani de către Mircea Groza
+                     de la bătrânii din satele sălăjene. Rețetele sunt scrise în
+                     limbaj regional, o transliterare fonetică, prin care
+                     autorul încearcă să conserve atât patrimoniul culinar cât
+                     și specificul zonei. Volumul beneficiază și de un glosar cu
+                     sute de termeni explicați. Mircea Groza este unul dintre
+                     cei mai renumiți culegători de rețete vechi de la noi,
+                     arheolog culinar și mentor pentru mulți bucătari.
+                     Activitatea sa a fost remarcată de autoritățile locale și
+                     centrale, asociațiile de bucătari naționale și
+                     internaționale și ONG-uri fiind recompensat cu zeci de
+                     premii de excelență pentru activitate.
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card col-2">
+               <img
+                  src="images/cartea9.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Ember Shadows and the </a>
+                  <p class="card-text limited-text">
+                     'an exceptional compelling debut' - Alex Wheatle, author of
+                     Crongton Knights 'a wonderfully imaginative tale about the
+                     power of sisterly love and defying the entangled threads of
+                     fate' - Andy Sagar, author of Yesterday Crumb 'such fun,
+                     fizzing with ideas ... a great, really original adventure'
+                     Penny Chrimes, author of Tiger Heart In a land trapped by
+                     fate, only courage can re-write the future. In the magical
+                     village of Everspring, everyone receives a fate card before
+                     their twelfth birthday, sent down from the mysterious Mount
+                     Never. It tells them their purpose, their profession and
+                     how old they'll be when they die.
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card col-2">
+               <img
+                  src="images/cartea10.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">A Game of Gods</a>
+                  <p class="card-text limited-text">
+                     Told in multiple POVs, A Game of Gods is the final
+                     installment in the Hades Saga by USA Today Bestselling
+                     author Scarlett St. Clair. Hades, God of the Dead, has
+                     finally made Persephone his in every way possible. With
+                     their wedding on the horizon, the couple should be
+                     ecstatic. But Demeter is wreaking havoc on their bliss by
+                     battering the whole of New Greece with erratic and
+                     dangerous weather. At the same time, Theseus continues with
+                     his agenda against the Gods, allying with the hate-group
+                     Triad in an effort to bring down all of Olympus.
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="card col-2">
+               <img
+                  src="images/cartea11.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Un joc al razbunarii</a>
+                  <p class="card-text limited-text">
+                     Hades, Zeul Morților, nu ia partea nimănui și nici nu
+                     încalcă regulile. Evident, nu face excepții când vine vorba
+                     de aceste principii – pentru niciun zeu sau muritor și nici
+                     măcar pentru iubita lui, Persefona, Zeița Primăverii. De
+                     obicei, frica te ține departe de jocurile răzbunării. Nu și
+                     de data asta însă. Când Hera, Zeița Femeilor, îl abordează
+                     pe Hades și îi cere ajutorul pentru a-l putea răsturna de
+                     la putere pe Zeus, acesta refuză. Drept pedeapsă, Hera îl
+                     condamnă la o serie de munci. Prins între uciderea unor
+                     monștri mitici și recuperarea artefactelor mortale furate,
+                     zeul se vede silit să facă față unor provocări din ce în ce
+                     mai dificile, care îi distrag atenția de la iubirea pentru
+                     Persefona. Zeița Primăverii trece și ea prin propria dramă,
+                     care o împinge să se întrebe în ce măsură poate fi regina
+                     Lumii de Jos. Oare va izbuti Hades să păstreze echilibrul
+                     după care tânjește?
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card col-2">
+               <img
+                  src="images/cartea12.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Soaptele</a>
+                  <p class="card-text limited-text">
+                     Într-o zi de sfârșit de vară, cuplurile înstărite de pe
+                     Harlow Street și copiii lor se reunesc la un grătar;
+                     printre felurile sofisticate asigurate de firma de catering
+                     și spectacolul magicianului, băutura curge la discreție.
+                     Totul este minunat până când gazda, întruchiparea
+                     perfecțiunii feminine, explodează de furie pentru că fiul
+                     ei n-o ascultă. Toți invitații aud cum își dă arama pe față
+                     răcnind insulte cumplite la adresa puștiului de zece ani.
+                     Peste câteva luni, băiatul cade de la fereastră în toiul
+                     nopții. Tot ce poate face mama lui e să-l vegheze la spital
+                     în timp ce viața îi atârnă de un fir de păr. Iar în
+                     următoarele trei zile, existențele a patru familii se
+                     schimbă radical, pe măsură ce fiecare dintre femeile
+                     implicate încearcă să înțeleagă ce a dus la cumplitul
+                     deznodământ.
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card col-2">
+               <img
+                  src="images/cartea13.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Copacii</a>
+                  <p class="card-text limited-text">
+                     Cu acțiunea plasată în localitatea rurală Parale din
+                     Mississippi, Copacii se deschide cu o serie de crime
+                     brutale. Cei doi detectivi de la MBI, Biroul de
+                     Investigații din Mississippi, trimiși să ancheteze
+                     întâmpină o rezistență previzibilă din partea șerifului, a
+                     adjunctului acestuia, a legistului și a numeroșilor albi
+                     rasiști din orășel. Crimele constituie o enigmă, întrucât
+                     la fiecare loc al faptei este prezent un al doilea cadavru:
+                     cel al unui bărbat care seamănă cu Emmett Till, un tânăr
+                     negru care a fost linșat în Parale cu 65 de ani în urmă.
+                     Detectivii bănuiesc că mobilul crimelor este răzbunarea,
+                     dar în curând descoperă că fenomenul s-a răspândit în toată
+                     țara. Se întâmplă ceva absolut straniu.
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+            <div class="card col-2">
+               <img
+                  src="images/cartea14.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Dune. Romanul grafic.</a>
+                  <p class="card-text limited-text">
+                     Elogii pentru Dune Romanul Grafic, cartea a doua, Muad’dib:
+                     „Un mod fantastic de a citi romanul Dune și de a te
+                     scufunda într-o mare de detalii. Grafica limpede face ca
+                     firul narativ să fie ușor de urmărit și adaugă poveștii
+                     cele mai bune și mai surprinzătoare calități pe care le au
+                     de oferit romanele grafice.“ Alex Ross Elogii pentru Dune
+                     Romanul grafic, cartea întâi, Dune: „Păstrând esența care a
+                     făcut ca Dune să fie un roman science-fiction colosal și
+                     adăugându-i elemente vizuale impresionante, romanul grafic
+                     Dune, Cartea întâi este o adaptare de succes.“ Foreword
+                     Reviews
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="card col-2">
+               <img
+                  src="images/cartea15.jpeg"
+                  class="card-img-top"
+                  alt="carte1"
+               />
+               <div class="card-body">
+                  <a href="">Chiriasa tacuta</a>
+                  <p class="card-text limited-text">
+                     Aidan Thomas este un familist care muncește din greu și o
+                     figură îndrăgită în orășelul în care trăiește. Este genul
+                     de om care dă întotdeauna o mână de ajutor și are o vorbă
+                     bună pentru fiecare. Însă Aidan are un secret întunecat:
+                     este un răpitor și un criminal în serie. Aidan a ucis opt
+                     femei și există încă una, candidată la moarte: Rachel,
+                     sechestrată într-o magazie. Când soția lui Aidan moare, el
+                     și fiica lor de treisprezece ani, Cecilia, sunt obligați să
+                     se mute. Aidan nu are de ales decât s-o ia și pe Rachel,
+                     prezentându-i-o Ceciliei ca pe „o prietenă de familie” care
+                     are nevoie de un loc unde să stea. Știe că, după cinci ani
+                     de captivitate, Rachel e prea înspăimântată ca să încerce
+                     să evadeze. Iar când Emily, proprietara unui restaurant
+                     local, dezvoltă o pasiune pentru arătosul văduv, ajunge
+                     periculos de aproape de a descoperi secretul lui Aidan.
+                     Povestit din perspectiva lui Rachel, a Ceciliei și a lui
+                     Emily, Chiriașa tăcută explorează impactul psihologic al
+                     crimelor lui Aidan asupra femeilor din viața lui și
+                     legătura dintre acele femei, care le dă puterea de a
+                     riposta. În egală măsură un thriller captivant și un studiu
+                     abil asupra traumei, supraviețuirii și dinamicii de putere,
+                     Chiriașa tăcută este debutul electrizant al unei scriitoare
+                     cu un talent remarcabil. „Clémence Michallon a scris, din
+                     prima încercare, o carte clasică. Chiriașa tăcută este un
+                     roman de investigație îndrăzneț și complet satisfăcător;
+                     de-a dreptul unic; o realizare de mare curaj... Ce om cu
+                     mintea întreagă s-ar apuca să scrie o carte la persoana
+                     întâi, a doua și a treia? Iar apoi, să aibă şi îndemânarea
+                     necesară pentru a o duce la bun sfârşit.” JAMES PATTERSON
+                  </p>
+                  <div class="card-buttons">
+                     <a class="btn btn-primary addToWishlistButton"
+                        >Add to wishlist</a
+                     >
+                     <a class="btn btn-primary borrowButton">Borrow</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- WISHLIST -->
+      <div class="wishlistAlert">Added to Wishlist</div>
+
+      <!-- BORROW -->
+
+      <div class="customAlert" id="customAlert">
+         <div class="alertContent">
+            <p>Do you want to go to the checkout or continue shopping?</p>
+            <button class="checkoutBtn">Checkout</button>
+            <button class="continueBtn">Continue</button>
+         </div>
+      </div>
+
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+         crossorigin="anonymous"
+      ></script>
+      <script src="userscript.js"></script>
+   </body>
+</html>

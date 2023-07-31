@@ -1,0 +1,114 @@
+body {
+   margin: 0px 100px;
+}
+
+.navcontainer {
+   background-color: #bea64d;
+   height: 120px;
+   border-radius: 10px;
+}
+
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.img-fluid {
+   width: 75px;
+   height: 75px;
+   margin: 10px 5px;
+}
+
+.userdata {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+li {
+   padding: 0px 20px;
+}
+
+.page {
+   color: white;
+   font-family: "Lobster", cursive;
+   font-size: 25px;
+}
+
+.page:hover {
+   color: rgb(71, 48, 128);
+}
+
+.btn-secondary {
+   background-color: rgb(71, 48, 128);
+}
+
+.btn-secondary:hover {
+   background-color: white;
+}
+
+.dropdown-item:hover {
+   background-color: rgb(119, 103, 160);
+   color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
+
+.btn-primary {
+   background-color: #bea64d;
+   border-color: #bea64d;
+}
+
+.btn-primary:hover {
+   background-color: rgb(71, 48, 128);
+   border-color: rgb(71, 48, 128);
+}
+
+.title h2 {
+   font-size: 40px;
+   text-align: center;
+   padding-top: 20px;
+   font-family: "Lobster", cursive;
+   color: #bea64d;
+}
+
+.form {
+   padding: 30px 100px;
+}
+
+.modal {
+   display: flex;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+   background-color: #fefefe;
+   margin: 15% auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 300px;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close-btn {
+   color: #aaa;
+   float: right;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.close-btn:hover {
+   color: black;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="userstyle.css" />
+      <link rel="icon" type="image/png" href="images/logo2.png" />
+      <link rel="stylesheet" href="borrowedstyle.css" />
+      <title>Borrowed</title>
+   </head>
+   <body>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+         <div class="container-fluid navcontainer">
+            <a class="navbar-brand logo page" href="userhomepage.html">
+               <div>
+                  <img src="images/logo2.png" class="img-fluid" alt="logo" />
+               </div>
+               <div for="logo">booklender</div>
+            </a>
+
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarNav"
+               aria-controls="navbarNav"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+            >
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="buttonclasss">
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link page" href="wishlist.html"
+                           >Wishlist</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link page" href="borrowed.html"
+                           >Borrowed</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link page" href="contact.html">Contact</a>
+                     </li>
+                     <li class="nav-item">
+                        <div class="dropdown">
+                           <button
+                              class="btn btn-secondary dropdown-toggle page"
+                              type="button"
+                              data-bs-toggle="dropdown"
+                              aria-expanded="false"
+                           >
+                              Profile
+                           </button>
+                           <ul class="dropdown-menu">
+                              <li>
+                                 <a class="dropdown-item" href="settings.html"
+                                    >Settings</a
+                                 >
+                              </li>
+                              <li>
+                                 <a class="dropdown-item" href="index.html"
+                                    >LOG OUT</a
+                                 >
+                              </li>
+                           </ul>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </nav>
+
+      <!-- CONTAINER -->
+
+      <div class="order-cards">
+         <div class="row">
+            <div class="col-8">
+               <div class="card">
+                  <div class="row book-card">
+                     <div class="col-md-2">
+                        <img
+                           class="image"
+                           src="images/carte2.png"
+                           alt="Book Cover"
+                        />
+                     </div>
+                     <div class="col-md-4">
+                        <div class="card-body">
+                           <h5 class="card-title">Cand infloresc lamaii</h5>
+                           <p class="card-text">Viorel</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <button type="button" class="btn btn-primary">
+                           Delete wish
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="row book-card">
+                     <div class="col-md-2">
+                        <img src="images/cartea6.jpeg" alt="Book Cover" />
+                     </div>
+                     <div class="col-md-4">
+                        <div class="card-body">
+                           <h5 class="card-title">Carabusii</h5>
+                           <p class="card-text">Mona Lisa</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <button type="button" class="btn btn-primary">
+                           Delete wish
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="row book-card">
+                     <div class="col-md-2">
+                        <img src="images/cartea8.png" alt="Book Cover" />
+                     </div>
+                     <div class="col-md-4">
+                        <div class="card-body">
+                           <h5 class="card-title">Zamuri</h5>
+                           <p class="card-text">Mona Lisa</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <button type="button" class="btn btn-primary">
+                           Delete wish
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <div class="row book-card">
+                     <div class="col-md-2">
+                        <img src="images/cartea15.jpeg" alt="Book Cover" />
+                     </div>
+                     <div class="col-md-4">
+                        <div class="card-body">
+                           <h5 class="card-title">Chiriasa tacuta</h5>
+                           <p class="card-text">John Doe</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="card-body">
+                           <button type="button" class="btn btn-primary">
+                              Delete wish
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+         crossorigin="anonymous"
+      ></script>
+      <script src="userscript.js"></script>
+   </body>
+</html>
